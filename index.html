@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelie da Mari </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-birthday-cake"></i>Ateliê da Mari</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+       <!-- <a href="#speciality">Ofertas</a>-->
+        <a href="#combos">Kits</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#pedidos">Pedidos</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Melhores Bolos da Região</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas accusamus tempore temporibus rem amet laudantium animi optio voluptatum. Natus obcaecati unde porro nostrum ipsam itaque impedit incidunt rem quisquam eos!</p>
+        <a href="#cardapio" class="btn">Cardapio</a>
+    </div>
+
+    <div class="image">
+        <img src="images/bolo banner.png" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- speciality section starts  -->
+<!--
+<section class="speciality" id="speciality">
+
+    <h1 class="heading"> O<span> que oferecemos</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class="image" src="images/s-img-1.jpg" alt="">
+            <div class="content">
+                <img src="images/s-1.png" alt="">
+                <h3>tasty burger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-2.jpg" alt="">
+            <div class="content">
+                <img src="images/s-2.png" alt="">
+                <h3>tasty pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-3.jpg" alt="">
+            <div class="content">
+                <img src="images/s-3.png" alt="">
+                <h3>cold ice-cream</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-4.jpg" alt="">
+            <div class="content">
+                <img src="images/s-4.png" alt="">
+                <h3>cold drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-5.jpg" alt="">
+            <div class="content">
+                <img src="images/s-5.png" alt="">
+                <h3>tasty sweets</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-6.jpg" alt="">
+            <div class="content">
+                <img src="images/s-6.png" alt="">
+                <h3>healty breakfast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+-->
+<!-- speciality section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="combos">
+
+    <h1 class="heading"> Nossos <span>Kits</span> especiais </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> R$ - 18.00 </span>
+            <img src="images/kits_Festa04.jpg" alt="">
+            <h3>Kit festa 01</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#pedidos" class="btn" onclick="kit01()">Pedir esse</a>
+        </div>
+        <div class="box">
+            <span class="price"> R$ - 20.00 </span>
+            <img src="images/kits_Festa01.jpg" alt="">
+            <h3>Kit de festa 02</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#pedidos" class="btn"onclick="kit02()">Pedir esse</a>
+        </div>
+        <div class="box">
+            <span class="price"> R$ - 20.00 </span>
+            <img src="images/kits_Festa02.jpg" alt="">
+            <h3>Kit festa 03</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#pedidos" class="btn" onclick="kit03()">pedir esse</a>
+        </div>
+        <div class="box">
+            <span class="price"> R$ - 25.00 </span>
+            <img src="images/kits_Festa03.jpg" alt="">
+            <h3>Kit festa 04</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#pedidos" class="btn" onclick="kit04()">pedir esse</a>
+        </div>
+        <div class="box">
+            <span class="price"> R$ - 22.00 </span>
+            <img src="images/kits_Festa04.jpg" alt="">
+            <h3>Kit festa 05</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#pedidos" class="btn" onclick="kit05()">pedir esse</a>
+        </div>
+        <div class="box">
+            <span class="price"> R$ - 25.00 </span>
+            <img src="images/kits_Festa01.jpg" alt="">
+            <h3>Kit festa 06</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#pedidos" class="btn" onclick="kit06()">pedir esse</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- steps section starts  -->
+<!--
+<div class="step-container">
+
+    <h1 class="heading">Funciona<span> Assim:</span></h1>
+
+    <section class="steps">
+
+        <div class="box">
+            <img src="images/step-1.jpg" alt="">
+            <h3>choose your favorite food</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-2.jpg" alt="">
+            <h3>free and fast delivery</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-3.jpg" alt="">
+            <h3>easy payments methods</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-4.jpg" alt="">
+            <h3>and finally, enjoy your food</h3>
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- steps section ends -->
+-->
+<!-- gallery section starts  -->
+
+<section class="gallery" id="cardapio">
+
+    <h1 class="heading"> Nosso <span> Cardápio </span> </h1>
+    <h3 class="escondido">click na imagem para pedir</h3>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/bolo pix.jpg" alt="">
+            <div class="content">
+                <h3>Bolo Pix</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et libero nulla? </p>
+                <a href="#pedidos" class="btn" onclick="card01()">Pedir esse</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/bolo01.jpg" alt="">
+            <div class="content">
+                <h3>Bolo branco</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#pedidos" class="btn" onclick="card02()">pedir esse</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/bolo02.jpg" alt="">
+            <div class="content">
+                <h3>Bolo de Morango chocolate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#pedidos" class="btn" onclick="card03()">pedir esse</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>Cupcake decorado</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#pedidos" class="btn" onclick="card04()">pedir esse</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/birgaderio branco.jpg" alt="">
+            <div class="content">
+                <h3>Bigadeiro branco</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#pedidos" class="btn" onclick="card05()">pedir esse</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/bolo03.jpg" alt="">
+            <div class="content">
+                <h3>Bolo morango</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#pedidos" class="btn" onclick="card06()">pedir esse</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/doceCopo.jpg" alt="">
+            <div class="content">
+                <h3>Doce no copo finos</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#pedidos" class="btn" onclick="card07()">pedir esse</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Bombons de chocolate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#pedidos" class="btn" onclick="card08()">pedir esse</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Bolo massa de pão</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#pedidos" class="btn" onclick="card09()">pedir esse</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="depoimentos">
+
+    <h1 class="heading"> Que nossos clientes <span>falam</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pic1.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box">
+            <img src="images/pic2.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box">
+            <img src="images/pic3.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="pedidos">
+
+    <h1 class="heading"> <span>Seu</span> Pedido </h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="images/fotoMari2.jpg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder=" Digite seu Nome" id="nome">
+                <input type="text" placeholder="Codigo do Pedido" id="codPedido" readonly>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="Quantidade" id="quantidade" min="1" value="1">
+                <input type="text" placeholder="Nome do Produto" id="nomePedido">
+            </div>
+            
+            <div class="inputBox">
+                <input type="text" placeholder="DINEIRO /CARTÃO" id="pagamento">
+                <input type="text" placeholder="valor unidade" id="observacoes"  readonly>
+            </div>
+            
+            
+            <textarea placeholder="Endereço de entrega" name="" id="endereco" cols="30" rows="2"></textarea>
+
+            <input id="submit" type="submit" value="Enviar seu Pedido" class="btn">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="https://www.facebook.com/ateliedamarigourmet" class="btn" target="_blank">facebook</a>
+        <!--<a href="#" class="btn">twitter</a>-->
+        <a href="https://www.instagram.com/ateliedamarigourmet/?utm_medium=copy_link" class="btn" target="_blank">instagram</a>
+       <!-- <a href="#" class="btn">pinterest</a>-->
+       <!-- <a href="#" class="btn">linkedin</a>-->
+    </div>
+
+    <h1 class="credit"> Producão <span> Meneses consultoria digital </span> | todos os direitos reservados! </h1>
+
+</section>
+
+<!-- scroll top button  -->
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- loader  -->
+<div class="loader-container">
+    <img src="images/gifbolo.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
